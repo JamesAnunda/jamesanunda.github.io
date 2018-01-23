@@ -1,38 +1,23 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-
-body, html {
-    height: 100%;
-    color: #555;
-    line-height: 1.9;
+Body {
+  margin: 0;
+  padding: 0;
+  background: url(../assests/img/img2.jpg) no-repeat;
+  background-size: cover;
 }
-
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: fixed;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
+.box {
+  width: 450px;
+  background: rgba(rgba(255, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin:auto;
+  margin-top: 5%
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
 }
-
-/* First image (Logo. Full height) */
-.bgimg-1 {
-    background-image: url("../img/img3.jpg");
-    min-height: 100%;
+.box-img {
+  border-radius: 50%
+  width: 200px;
+  height: 200px;
 }
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-    background-image: url("../img/img2.jpg");
-    min-height: 400px;
+.box h1 {
 }
-
-/* Third image (Contact) */
-.bgimg-3 {
-    background-image: url("../img/img6.jpg");
-    min-height: 400px;
-}
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-}
-/* Other */
