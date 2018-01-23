@@ -1,1 +1,1 @@
-# equinox.github.io
+# jamesanunda.github.io
