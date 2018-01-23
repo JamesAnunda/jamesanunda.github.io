@@ -1,4 +1,4 @@
-Body {
+Body, html {
   margin: 0;
   padding: 0;
   background: url(../assests/img/img2.jpg) no-repeat;
@@ -13,10 +13,21 @@ Body {
   margin-top: 5%
   color: white;
 }
-.box-img {
+.box-img{
   border-radius: 50%
   width: 200px;
   height: 200px;
 }
 .box h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight:400;
+}
+.box h2 {
+  font-size: 25px;
+  letter-spacing:3px;
+  font-weight: 100;
+}
+.box p {
+  text-align: justify;
 }
