@@ -1,33 +1,38 @@
-Body, html {
-  margin: 0;
-  padding: 0;
-  background-image: url(../assests/img/img1.jpg) no-repeat;
-  background-size: cover;
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+
+body, html {
+    height: 100%;
+    color: #555;
+    line-height: 1.9;
 }
-.box {
-  width: 450px;
-  background: rgba(rgba(255, 0, 0, 0.4);
-  padding: 40px;
-  text-align: center;
-  margin:auto;
-  margin-top: 5%
-  color: white;
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.box-img{
-  border-radius: 50%
-  width: 200px;
-  height: 200px;
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url("../img/img3.jpg");
+    min-height: 100%;
 }
-.box h1 {
-  font-size: 40px;
-  letter-spacing: 4px;
-  font-weight:400;
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("../img/img2.jpg");
+    min-height: 400px;
 }
-.box h2 {
-  font-size: 25px;
-  letter-spacing:3px;
-  font-weight: 100;
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("../img/img6.jpg");
+    min-height: 400px;
 }
-.box p {
-  text-align: justify;
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
 }
+/* Other */
