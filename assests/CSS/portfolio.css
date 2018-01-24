@@ -1,7 +1,7 @@
 Body, html {
   margin: 0;
   padding: 0;
-  background: url(../assests/img/img2.jpg) no-repeat;
+  background-image: url(../assests/img/img1.jpg) no-repeat;
   background-size: cover;
 }
 .box {
