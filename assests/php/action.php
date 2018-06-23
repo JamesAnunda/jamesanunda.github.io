@@ -14,7 +14,6 @@ if(isset($_POST['email'])) {
         die();
     }
 
-
     // validation expected data exists
     if(!isset($_POST['Name']) ||
         !isset($_POST['Email']) ||
@@ -45,7 +44,6 @@ if(isset($_POST['email'])) {
 
     $email_message = "Form details below.\n\n";
 
-
     function clean_string($string) {
       $bad = array("content-type","bcc:","to:","cc:","href");
       return str_replace($bad,"",$string);
@@ -54,19 +52,5 @@ if(isset($_POST['email'])) {
     $email_message .= "Name: ".clean_string($Name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Message: ".clean_string($Message)."\n";
-
-// create email headers
-$headers = 'From: '.$email_from."\r\n".
-'Reply-To: '.$email_from."\r\n" .
-'X-Mailer: PHP/' . phpversion();
-@mail($email_to, $email_subject, $email_message, $headers);
-?>
-
-<!-- include your own success html here -->
-
-Thank you for contacting me. Ill
-
-<?php
-
+  }
 }
-?>
