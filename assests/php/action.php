@@ -54,3 +54,4 @@ if(isset($_POST['email'])) {
     $email_message .= "Message: ".clean_string($Message)."\n";
   }
 }
+
