@@ -28,7 +28,7 @@
           <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#resume">Resume</a>
+          <a class="nav-link" href="#resume">Skill</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -43,7 +43,7 @@
             <h1 class="display-4">James Christopher Anunda</h1>
             <h6 style="color:dodgerblue;">Welcome to my Portfolio</h6>
              <i class="fa fa-twitter" aria-hidden="true">TESTING ICONS</i>
-             <button onclick="myfunction()" id="readMore">Read more</button>
+             <button onclick="onclick(function)" id="readMore">Read more</button>
          </div>
     </div>
 
@@ -73,30 +73,31 @@
     <h2 class="text-center text-uppercase text-white">Portfolio</h2>
   </div>
 
-  <div class="row container">
-    <!-- PBE -->
-    <div class="card bg-secondary" id="title1" style="width: 18rem;">
-      <img class="card-img-top" src="assests/img/pbe.jpg" alt="pathfinder">
-      <div class="card-body">
-        <p class="text-white">Built a quiz engine using a javascript which connect with a PHP framework to run MySQL quires.</p>
-    </div>
+  <div class="row container card-deck">
     <!-- J&A Mobility Transportation -->
     <div class="card bg-dark" style="width: 18rem;">
         <img class="card-img-top" src="assests/img/J&A.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">J&A Mobility Transportation LLC</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="https://rideja.wordpres.com" class="btn btn-primary" target="_blank">Go somewhere</a>
         </div>
     </div>
-  </div>
-</div> <!-- Close Portfolio Div-->
+    <div class="card bg-dark" style="width: 18rem;">
+        <img class="card-img-top" src="assests/img/A+.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">A+ Trands & Handyman Service</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary" target="_blank">Click Here</a>
+        </div>
+      </div>
+  </div><!-- Close Portfolio Div-->
 </section>
 
-<!-- Resume -->
 
+<!-- Skills -->
 <div class="container">
-    <h2>Resume</h2> 
+    <h2>Skills</h2> 
      <div class="progress">
         <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">Testing </div>
     </div>
@@ -113,6 +114,7 @@
 
 <!-- Contact -->
 <form id="contact-form" method="post" action="/assests/php/action.php" role="form">
+  <h2 class="text-center text-uppercase text-white">Contact</h2>
   <div class="messages"></div>
   <div class="controls">
       <div class="row">
